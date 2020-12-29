@@ -1,0 +1,25 @@
+body {
+  box-sizing: border-box;
+}
+.converter {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 10vh;
+  background-color: #9ffffa;
+  padding: 20px;
+}
+.select-currency {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.in-rubles {
+  margin-bottom: 15px;
+}
+.in-rubles,
+.from-rubles {
+  text-align: center;
+}
+.converted {
+  display: block;
+  margin: 15px auto 0;
+}

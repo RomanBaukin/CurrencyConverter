@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="shortcut icon" href="change_money.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="script/script.js" defer></script>
+  </head>
+  <body>
+    <div class="converter">
+      <div class="select-currency">
+        <input type="radio" name="currency" id="usd" value="USD" checked />
+        <label for="usd">USD</label>
+        <input type="radio" name="currency" id="euro" value="EUR" />
+        <label for="euro">EURO</label>
+      </div>
+      <!-- /.select-currency -->
+      <div class="in-rubles">
+        <input type="text" name="usd-or-euro" id="input-usd-or-euro" />
+        <label for="usd-or-euro"></label>
+        <input type="text" name="output-rubles" id="output-rubles" disabled />
+        <label for="output-rubles">Российский Рубль (RUB)</label>
+        <button class="converted" type="submit" id="converted-in-rubles">Конвертировать</button>
+      </div>
+      <!-- /.in-rubles -->
+      <div class="from-rubles">
+        <input type="text" name="input-rubles" id="input-rubles" />
+        <label for="input-rubles">Российский Рубль (RUB)</label>
+        <input type="text" name="output-usd-or-euro" id="output-usd-or-euro" disabled />
+        <label for="output-usd-or-euro"></label>
+        <button class="converted" type="submit" id="converted-from-rubles">Конвертировать</button>
+      </div>
+      <!-- /.from-rubles -->
+    </div>
+    <!-- /.converter -->
+  </body>
+</html>
